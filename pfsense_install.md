@@ -101,6 +101,5 @@ Once set up, pfSense will manage traffic between the WAN and LAN interfaces, and
   - LAN: Default is 192.168.1.1/24 (can be changed).
     
 - **Admin GUI Password:**
-
-Set the admin password for web GUI access.
+  - Set the admin password for web GUI access.
 
