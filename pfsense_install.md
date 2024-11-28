@@ -86,3 +86,21 @@ Password: pfsense**
 
 Configure WAN settings, DNS, and firewall rules as required for your network setup.
 Once set up, pfSense will manage traffic between the WAN and LAN interfaces, and you can add internal machines to the LAN network for monitoring or testing.
+
+
+
+## First Time Setup
+
+- **Hostname & Time Zone:**
+
+  - Set the hostname (e.g., pfSense-FW).
+  - Configure the time zone (select region and city).
+    
+- **WAN and LAN Configuration:**
+  - WAN: Configure as DHCP (or set static IP if needed).
+  - LAN: Default is 192.168.1.1/24 (can be changed).
+    
+- **Admin GUI Password:**
+
+Set the admin password for web GUI access.
+
