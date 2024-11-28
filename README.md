@@ -27,3 +27,33 @@ The project provides a hands-on implementation of modern cybersecurity practices
 
 - Centralize and correlate logs for both the NGFW and the client machine.
 - Enable real-time alerting for network intrusions, suspicious activity, and system vulnerabilities.
+
+
+#Pfsense
+Is an open-source firewall and router software distribution based on FreeBSD. It is widely used for securing networks, managing traffic, and monitoring connections. It can be configured to act as a Next-Generation Firewall (NGFW) when combined with additional features like Intrusion Detection Systems (IDS), Intrusion Prevention Systems (IPS), and traffic monitoring tools.
+
+**Key Features of pfSense:**
+
+**- Firewall Capabilities:**
+Stateful packet filtering, NAT, VLAN support, and web filtering (Squid proxy, SquidGuard).
+
+**- VPN Support:**
+IPsec and OpenVPN for secure remote and site-to-site VPN connections.
+
+**- IDS/IPS (Snort/Suricata):**
+Real-time threat detection and prevention, blocking malicious traffic.
+
+**- Traffic Shaping & QoS:**
+Prioritize critical traffic and manage bandwidth for non-essential services.
+
+**- User Authentication:**
+Local or external authentication (LDAP, RADIUS).
+
+**- Web Interface & Dashboard:**
+Easy-to-use GUI for configuration, monitoring, and real-time traffic analysis.
+
+**- High Availability (HA):**
+Failover with CARP for continuous network availability.
+
+**- Traffic Logging:**
+Log forwarding to external systems like Wazuh, Splunk, or Graylog for centralized monitoring.
