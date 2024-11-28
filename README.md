@@ -13,14 +13,15 @@ The project provides a hands-on implementation of modern cybersecurity practices
 
 **NGFW Setup:**
 
-    Deploy and configure a firewall with IDS/IPS capabilities (e.g., pfSense or a commercial NGFW).
-    Define and enforce firewall policies to secure the network.
+- Deploy and configure a firewall with IDS/IPS capabilities (e.g., pfSense or a commercial NGFW).
+- Define and enforce firewall policies to secure the network.
+
 **Monitoring with Wazuh:**
 
-    Collect and analyze NGFW logs through Syslog integration with Wazuh.
-    Install and configure the Wazuh agent on the client machine for in-depth system monitoring.
+- Collect and analyze NGFW logs through Syslog integration with Wazuh.
+- Install and configure the Wazuh agent on the client machine for in-depth system monitoring.
     
 **Security Analysis:**
 
-    Centralize and correlate logs for both the NGFW and the client machine.
-    Enable real-time alerting for network intrusions, suspicious activity, and system vulnerabilities.
+- Centralize and correlate logs for both the NGFW and the client machine.
+- Enable real-time alerting for network intrusions, suspicious activity, and system vulnerabilities.
