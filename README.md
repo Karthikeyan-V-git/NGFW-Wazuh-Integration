@@ -29,8 +29,10 @@ The project provides a hands-on implementation of modern cybersecurity practices
 - Enable real-time alerting for network intrusions, suspicious activity, and system vulnerabilities.
 
 
-#Pfsense
+# Pfsense
 Is an open-source firewall and router software distribution based on FreeBSD. It is widely used for securing networks, managing traffic, and monitoring connections. It can be configured to act as a Next-Generation Firewall (NGFW) when combined with additional features like Intrusion Detection Systems (IDS), Intrusion Prevention Systems (IPS), and traffic monitoring tools.
+
+<img src="/assets/pfsense.png" width="800"/>
 
 **Key Features of pfSense:**
 
@@ -57,3 +59,5 @@ Failover with CARP for continuous network availability.
 
 **- Traffic Logging:**
 Log forwarding to external systems like Wazuh, Splunk, or Graylog for centralized monitoring.
+
+[Installation and Configuration](pfsense_installation.md)
