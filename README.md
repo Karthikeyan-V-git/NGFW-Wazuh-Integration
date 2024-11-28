@@ -1,5 +1,7 @@
 # NGFW-Wazuh-Integration
-This project focuses on configuring a Next-Generation Firewall (NGFW) and integrating it with Wazuh, a security monitoring and management platform
+This project focuses on configuring a Next-Generation Firewall (NGFW) and integrating it with Wazuh, a security monitoring and management platform.
+
+<img src="/assets/intro.webp" width="800"/>
 
 The primary objective is to establish a secure network environment by:
 
