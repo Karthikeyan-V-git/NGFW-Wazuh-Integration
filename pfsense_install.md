@@ -103,3 +103,22 @@ Once set up, pfSense will manage traffic between the WAN and LAN interfaces, and
 - **Admin GUI Password:**
   - Set the admin password for web GUI access.
 
+
+## Connect a device to the LAN of the Pfsense
+
+- Physically connect your device (PC, laptop, or another machine) to the LAN interface of pfSense.
+- If using VirtualBox, ensure the device (VM or physical machine) is set to use the **Internal Network** or bridged with the LAN interface of pfSense.
+- If it's a physical device, connect it to the LAN port on the pfSense box (e.g., a LAN Ethernet port).
+  
+- **Configure Device Network Settings:**
+
+    - Set the device to obtain an IP address automatically (DHCP) from pfSense.
+    - On Windows: Control Panel > Network and Sharing Center > Change adapter settings > Right-click on network adapter > Properties > Select IPv4 > Set to "Obtain an IP address automatically".
+    - On Linux/macOS: Set the device to obtain an IP automatically via DHCP in the network settings.
+      
+- **Test Connectivity:**
+
+    - After the device is connected and the network settings are configured, test the connectivity.
+    - Open a browser and try accessing http://192.168.1.1 (pfSense’s web interface).
+    - You can also ping pfSense from the connected device: ping 192.168.1.1. 
+    - The device should receive an IP address from pfSense's DHCP server and be able to access the LAN network.
