@@ -54,32 +54,35 @@ The WAN interface should be connected to your physical network or the internet. 
 The LAN interface is configured to use the Internal Network setting. This makes pfSense act as the gateway between your internal network and the outside world. Machines connected to the LAN network in VirtualBox can communicate with pfSense but won't have direct access to the host machine's network.
 
 
-- **Start pfSense Installation:**
+## Start pfSense Installation:
 
 **Start the VM:**
 
 Once the virtual machine is created and configured, click Start to boot the VM from the ISO.
 
-Install pfSense:
+- **Install pfSense:**
 
 Follow the on-screen prompts to install pfSense onto the virtual disk.
 Select the default option for installation (usually Install pfSense).
 Follow the prompts to choose disk partitions, and then let the system install pfSense.
 
-Initial Setup:
+- **Initial Setup:**
 
 After installation, pfSense will prompt you to configure the WAN and LAN interfaces.
 Set the WAN interface to DHCP to automatically receive an IP address from your physical network.
 Set up a static IP for the LAN network (e.g., 192.168.1.1/24).
-Post-Installation:
+
+- **Post-Installation:**
+
 Access the Web Interface:
 
 After installation, pfSense will show you a message with the LAN IP address (e.g., 192.168.1.1).
 Open a web browser and go to https://192.168.1.1 (or whatever the IP is).
 Log in using the default credentials:
-Username: admin
-Password: pfsense
-Finalize Configuration:
+**Username: admin
+Password: pfsense**
+
+- **Finalize Configuration:**
 
 Configure WAN settings, DNS, and firewall rules as required for your network setup.
 Once set up, pfSense will manage traffic between the WAN and LAN interfaces, and you can add internal machines to the LAN network for monitoring or testing.
