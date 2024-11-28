@@ -32,7 +32,7 @@ The project provides a hands-on implementation of modern cybersecurity practices
 # Pfsense
 Is an open-source firewall and router software distribution based on FreeBSD. It is widely used for securing networks, managing traffic, and monitoring connections. It can be configured to act as a Next-Generation Firewall (NGFW) when combined with additional features like Intrusion Detection Systems (IDS), Intrusion Prevention Systems (IPS), and traffic monitoring tools.
 
-<img src="/assets/Pfsense.png" width="800"/>
+<img src="/assets/PfSense.png" width="800"/>
 
 **Key Features of pfSense:**
 
