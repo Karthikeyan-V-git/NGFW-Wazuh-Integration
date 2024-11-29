@@ -103,6 +103,22 @@ Once set up, pfSense will manage traffic between the WAN and LAN interfaces, and
 - **Admin GUI Password:**
   - Set the admin password for web GUI access.
 
+- **Dashboard**
+  - Add/Remove Widgets:
+    On the dashboard, click the “+” icon (Add Widget) in the upper-right corner.
+    Select widgets to display information like:
+           - Traffic Graphs
+           - Firewall Logs
+           - Interfaces (WAN/LAN status)
+           - System Information
+    
+  - Rearrange Widgets:
+    Drag and drop widgets to reorder them based on your preferences.
+
+  - Save Layout:
+    Once customized, the dashboard will retain the layout and settings for future sessions.
+
+
 
 ## Connect a device to the LAN of the Pfsense
 
