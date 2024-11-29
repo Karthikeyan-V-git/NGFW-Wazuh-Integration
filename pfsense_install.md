@@ -118,6 +118,12 @@ Once set up, pfSense will manage traffic between the WAN and LAN interfaces, and
   - Save Layout:
     Once customized, the dashboard will retain the layout and settings for future sessions.
 
+<img src="/assets/login.png" width="800"/>
+
+<img src="/assets/dashboard.png" width="800"/>
+
+<img src="/assets/ssh.png" width="800"/>
+
 
 
 ## Connect a device to the LAN of the Pfsense
